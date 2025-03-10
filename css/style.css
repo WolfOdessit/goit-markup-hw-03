@@ -54,12 +54,10 @@ a {
     display: flex;
    align-items: center;
    gap: 40px;
+   padding: 24px 0;
 }
-.nav-list{
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
-}
+
+
 
 .address {
     color: #434455;
@@ -108,7 +106,7 @@ color: #2E2F42;
     background-color: #4D5AE5;
     border: none;
     outline: none;
-    max-width: 169px;
+    min-width: 169px;
     height: 56px;
     cursor:pointer ;
     border-radius: 4px;
@@ -129,7 +127,7 @@ max-width: 496px;}
     justify-items: center;
     align-items: center;
     height: 600px;
-    padding: 120px 0; 
+    padding: 188px 0; 
     min-height: 600px;
 
 }
@@ -164,7 +162,7 @@ ul {
     margin-bottom: 72px;
 }
 .about-section{
-    padding: 120px 156px;
+    padding: 120px 0px;
     gap:24px;
 }
  .about-list{
@@ -191,19 +189,9 @@ ul {
     letter-spacing: 0.02em;
     color:#434455;
     text-align: center;
-
 }
-.div-strategy{
-    padding: 32px 0;
-}
-.div-punctuality{
-    padding: 32px 0;
-}
-.div-diligence{
-    padding: 32px 0;
-}
-.div-technologies{
-    padding: 32px 0;
+.div-about{
+    margin-bottom: 8px;
 }
 
 
@@ -252,6 +240,24 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.div-team{
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+
+}
+.mark-guerrero{
+    padding: 32px;
+}
+.tom-ford{
+    padding: 32px;
+}
+.camila-garcia{
+    padding: 32px;
+}
+.daniel-wilson{
+    padding: 32px;
+}
+
 /*Portfolio*/
 .portfolio-section {
     padding: 120px 0;
