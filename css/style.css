@@ -56,7 +56,10 @@ a {
    gap: 40px;
    padding: 24px 0;
 }
-
+.nav-list{
+    gap: 40px;
+    padding: 24px 0;
+}
 
 
 .address {
