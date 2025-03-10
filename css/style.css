@@ -32,7 +32,7 @@ img{
     max-width: 1158px;
         padding: 0 15px;
          margin: 0 auto;
-         padding: 0 15px;
+        
 }
 .section{
     padding-top: 120px;
@@ -89,7 +89,7 @@ color: #2E2F42;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0;
+   
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -171,6 +171,7 @@ ul {
  }
  .about-ul{
     gap:24px;
+    display: flex;
  }
 .title-about {
     font-size: 20px;
