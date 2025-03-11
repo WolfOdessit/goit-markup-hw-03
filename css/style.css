@@ -332,6 +332,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
+    max-width: 264px;
 
 }
 .studio-footer{color:#f4f4fd;}
