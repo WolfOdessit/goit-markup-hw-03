@@ -229,9 +229,9 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    row-gap: 48px;
     list-style:none;
     margin-right: 0;
+    gap: 24px;
     
 }
 .team img{
@@ -254,7 +254,7 @@ ul {
     padding-bottom: 10px;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
-    gap: 24px;
+    
 
 }
 .name-team{
