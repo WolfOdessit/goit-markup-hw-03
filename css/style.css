@@ -168,7 +168,18 @@ ul {
 }
 /**About**/
 .visually-hidden{
-    display: none;
+     
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
 }
 
 .about-section{
@@ -217,7 +228,6 @@ ul {
 .team-list{
     display: flex;
     justify-content: center;
-    gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
     list-style:none;
@@ -244,6 +254,7 @@ ul {
     padding-bottom: 10px;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    gap: 24px;
 
 }
 .name-team{
