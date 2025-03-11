@@ -53,12 +53,15 @@ a {
 .nav{
     display: flex;
    align-items: center;
-   gap: 40px;
+  
   
 }
 .nav-list{
     gap: 40px;
-    padding: 24px 0;
+    display: flex;
+    list-style:none;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -79,6 +82,9 @@ a {
 .address-ul{
     display: flex;
     gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link {
@@ -86,6 +92,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
+padding: 24px 0;
 }
 .link:hover{background-color:#404BBF;}
 .link:focus{color:#404BBF;}
@@ -141,9 +148,7 @@ max-width: 496px;}
     align-items: center;
     gap: 20px;
 }
-.visually-hidden{
-    display: none;
-}
+
 /*Background*/
 body {
     background-color: #FFFFFF;
@@ -163,19 +168,33 @@ ul {
 }
 /**About**/
 .visually-hidden{
-    margin-bottom: 72px;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        border: 0;
 }
+
 .about-section{
     padding: 120px 0px;
-    gap:24px;
 }
  .about-list{
     width: calc((100% – 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
+
  }
  .about-ul{
+    justify-content: center;
     gap:24px;
     display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
  }
 .title-about {
     font-size: 20px;
@@ -193,11 +212,9 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
-    text-align: center;
+
 }
-.div-about{
-    margin-bottom: 8px;
-}
+
 
 
 /*Team*/
@@ -210,9 +227,12 @@ ul {
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
+    list-style:none;
+    
 }
 .team img{
     margin-bottom: 16px;
+    border-radius: 4px 4px 0 0;
 }
 
 .team-title{
@@ -222,8 +242,6 @@ ul {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2E2F42;
-    padding-top: 120px;
-    padding-bottom: 72px;
     margin-bottom: 72px;
 }
 .team {
@@ -231,6 +249,9 @@ ul {
     text-align: center;
     padding-bottom: 10px;
     gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 .name-team{
     font-weight: 500;
@@ -239,30 +260,20 @@ ul {
     letter-spacing: 0.02em;
     color:#2E2F42;
     margin-bottom: 8px;
+    text-align: center;
 }
 .p-team{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .div-team{
-    gap: 24px;
-    border-radius: 0px 0px 4px 4px;
+   display: flex;
+   justify-content: center;
 
 }
-.mark-guerrero{
-    padding: 32px;
-}
-.tom-ford{
-    padding: 32px;
-}
-.camila-garcia{
-    padding: 32px;
-}
-.daniel-wilson{
-    padding: 32px;
-}
-
+.team-info{padding: 32px 0;}
 /*Portfolio*/
 .portfolio-section {
     padding: 120px 0;
